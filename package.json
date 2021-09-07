@@ -1,0 +1,32 @@
+{
+  "name": "r34-branding",
+  "version": "1.0.0",
+  "description": "Branding theming and design for all my rule34 apps.",
+  "main": "index",
+  "types": "index",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurozenzen/r34-branding.git"
+  },
+  "keywords": [
+    "r34",
+    "rule34",
+    "theme",
+    "branding",
+    "assets",
+    "kurozenzen"
+  ],
+  "author": "kurozenzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurozenzen/r34-branding/issues"
+  },
+  "homepage": "https://github.com/kurozenzen/r34-branding#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
