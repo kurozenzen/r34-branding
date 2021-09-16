@@ -1,6 +1,7 @@
+import { Theme } from "../types/Theme";
 import { dark } from "./dark";
 
-export const coffee = {
+export const coffee: Theme = {
   ...dark,
   colors: {
     ...dark.colors,

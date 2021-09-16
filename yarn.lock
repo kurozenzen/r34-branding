@@ -2,7 +2,12 @@
 # yarn lockfile v1
 
 
-typescript@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.2.tgz#6d618640d430e3569a1dfb44f7d7e600ced3ee86"
-  integrity sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==
+r34-types@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/r34-types/-/r34-types-1.1.4.tgz#c250701afcd82bad5ac5ff4aae8c0d12c20b9dd2"
+  integrity sha512-t+Df1rGur/GcGK2r4Gfhq67W7nSxYMwMAtBzvwr/f97axSLBrr/CrpgGjRSnPboKQsqHdTGmqY9PzxeDgO6/qA==
+
+typescript@^4.4.3:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
+  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==

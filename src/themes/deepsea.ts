@@ -1,7 +1,8 @@
+import { Theme } from "../types/Theme";
 import { blueAccents } from "./base/accents/blueAccents";
 import { dark } from "./dark";
 
-export const deepsea = {
+export const deepsea: Theme = {
   ...dark,
   colors: {
     ...dark.colors,

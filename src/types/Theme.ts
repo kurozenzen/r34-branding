@@ -1,42 +1,46 @@
+import { CssUnit } from "./CssUnit";
+import { HexColor } from "./HexColor";
+import { TimeUnit } from "./TimeUnit";
+
 export interface Theme {
   colors: {
-    accentColor: string;
-    accentColorActive: string;
-    accentColorHover: string;
-    backdrop: string;
-    backgroundColor: string;
-    backgroundColor2: string;
-    focus: string;
-    layerBg: string;
-    layerBgHighlight: string;
-    layerBgSolid: string;
-    liked: string;
-    negative: string;
-    positive: string;
-    subduedText: string;
-    text: string;
-    toggleOff: string;
+    accentColor: HexColor;
+    accentColorActive: HexColor;
+    accentColorHover: HexColor;
+    backdrop: HexColor;
+    backgroundColor: HexColor;
+    backgroundColor2: HexColor;
+    focus: HexColor;
+    layerBg: HexColor;
+    layerBgHighlight: HexColor;
+    layerBgSolid: HexColor;
+    liked: HexColor;
+    negative: HexColor;
+    positive: HexColor;
+    subduedText: HexColor;
+    text: HexColor;
+    toggleOff: HexColor;
   };
   dimensions: {
-    bigSpacing: string;
-    blockHeight: string;
-    bodyWidth: string;
-    borderRadius: string;
-    borderWidth: string;
-    hugeSpacing: string;
-    modalWidth: string;
-    spacing: string;
+    bigSpacing: CssUnit;
+    blockHeight: CssUnit;
+    bodyWidth: CssUnit;
+    borderRadius: CssUnit;
+    borderWidth: CssUnit;
+    hugeSpacing: CssUnit;
+    modalWidth: CssUnit;
+    spacing: CssUnit;
   };
   fontSizes: {
-    bigTitle: string;
-    content: string;
+    bigTitle: CssUnit;
+    content: CssUnit;
   };
   shadow: {
-    color: string;
-    radius: string;
+    color: HexColor;
+    radius: CssUnit;
   };
   timings: {
-    longTransitionTime: string;
-    transitionTime: string;
+    longTransitionTime: TimeUnit;
+    transitionTime: TimeUnit;
   };
 }
