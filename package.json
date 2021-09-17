@@ -1,8 +1,8 @@
 {
   "name": "r34-branding",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Branding theming and design for all my rule34 apps.",
-  "main": "index",
+  "main": "dist/index",
   "types": "index",
   "scripts": {
     "prepublish": "tsc"
