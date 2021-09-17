@@ -1,6 +1,6 @@
 {
   "name": "r34-branding",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Branding theming and design for all my rule34 apps.",
   "main": "index",
   "types": "index",
@@ -25,10 +25,9 @@
     "url": "https://github.com/kurozenzen/r34-branding/issues"
   },
   "homepage": "https://github.com/kurozenzen/r34-branding#readme",
-  "dependencies": {
-    "r34-types": "^1.1.4"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "r34-types": "^1.1.4",
     "typescript": "^4.4.3"
   }
 }
