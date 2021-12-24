@@ -1,4 +1,4 @@
-import { ThemeId } from "r34-types";
+import { Theme as ThemeId } from "r34-types";
 import { Theme } from "../types/Theme";
 
 import { light } from "./light";

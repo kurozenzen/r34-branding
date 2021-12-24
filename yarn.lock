@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-r34-types@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/r34-types/-/r34-types-1.1.4.tgz#c250701afcd82bad5ac5ff4aae8c0d12c20b9dd2"
-  integrity sha512-t+Df1rGur/GcGK2r4Gfhq67W7nSxYMwMAtBzvwr/f97axSLBrr/CrpgGjRSnPboKQsqHdTGmqY9PzxeDgO6/qA==
+r34-types@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/r34-types/-/r34-types-1.1.7.tgz#302a0f5e87f0121f8d40c1b3b58693638c53ed7c"
+  integrity sha512-LmAQ2WfoulEDefxd+24cA8fe8Nu+1hhDvPJruOaZ5rvLOvTs1Nb1RWcaauWzTE0cRcTgAgo+MmDvi0jK6nu0oA==
 
 typescript@^4.4.3:
   version "4.4.3"
